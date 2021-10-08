@@ -37,7 +37,7 @@ nav a:hover {
 }
 
 footer {
-    background: url("./img/bg.jpg");
+    background: url("../img/bg.jpg");
     text-align: center;
     padding: 10px 0;
 }
