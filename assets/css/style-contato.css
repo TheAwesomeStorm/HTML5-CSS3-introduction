@@ -1,0 +1,97 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 40px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.textInput {
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    width: 50%;
+}
+
+.checkboxInput {
+    margin: 20px 0;
+}
+
+.radioInput {
+    margin-bottom: 15px;
+}
+
+.enviarForms {
+    width: 25%;
+    padding: 5px 0;
+    background: darkorange;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.enviarForms:hover {
+    background: orangered;
+    transform: scale(1.05);
+}
+
+.tabelaFuncionamento {
+    margin-bottom: 40px;
+}
+
+.tabelaFuncionamento thead {
+    background: #444444;
+    color: white;
+    font-weight: bold;
+}
+
+.tabelaFuncionamento th, td {
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 480px) {
+    main, .envelope{
+        width: auto;
+        padding: 0 10px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    form label, form legend {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .enviarForms {
+        width: 50%;
+    }
+
+    .tabelaFuncionamento {
+        font-size: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .tabelaFuncionamento th, td {
+        padding: 5px 10px;
+    }
+}
